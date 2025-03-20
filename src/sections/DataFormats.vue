@@ -88,5 +88,16 @@ const geojson = JSON.stringify(featureCollection, null, 2)
       <h3>Well-Known Text Examples</h3>
       <img src="../assets/images/wkt-table.png" alt="">
     </section>
+
+    <section class="mvt-pbf">
+      <h3>Mapbox Vector Tiles and Protocol Buffers</h3>
+      <ul>
+        <li><a href="https://docs.mapbox.com/vector-tiles/specification/" target="_blank" rel="noopener noreferrer">Mapbox Vector Tiles (MVT)</a> are an efficient format for storing and transferring geographic data in vector format</li>
+        <li class="fragment">MVT is based on <a href="https://developers.google.com/protocol-buffers" target="_blank" rel="noopener noreferrer">Protocol Buffers (PBF)</a>, a binary format for serializing structured data</li>
+        <li class="fragment">MVT is used by Mapbox and other mapping services to deliver vector data to web and mobile clients</li>
+        <li class="fragment">most commonly used for basemaps (also true for ArcGIs)</li>
+      </ul>
+    </section>
+
   </section>
 </template>
