@@ -12,7 +12,7 @@ const geojson = JSON.stringify(featureCollection, null, 2)
 
     <section>
       <h2>Data Formats and Specifications</h2>
-      <p>There are many different data formats and specifications used in GIS. Some of the most common include:</p>
+      <p class="text-md">There are many different open source data formats and specifications used in GIS. These are usually regulated by the <a href="https://en.wikipedia.org/wiki/Open_Geospatial_Consortium" target="_blank" rel="noopener noreferrer">Open Geospatial Consortium (OGC)</a>. Some of the most common include:</p>
       <ul>
         <li>Shapefile</li>
         <li>KML</li>
@@ -21,6 +21,7 @@ const geojson = JSON.stringify(featureCollection, null, 2)
         <li>WKT (well-known text)</li>
         <li>WKB (well-known binary)</li>
         <li>MVT/PBF (Mapbox Vector Tiles)</li>
+        <li>WMS/WFS</li>
       </ul>
     </section>
 
@@ -96,6 +97,19 @@ const geojson = JSON.stringify(featureCollection, null, 2)
         <li class="fragment">MVT is based on <a href="https://developers.google.com/protocol-buffers" target="_blank" rel="noopener noreferrer">Protocol Buffers (PBF)</a>, a binary format for serializing structured data</li>
         <li class="fragment">MVT is used by Mapbox and other mapping services to deliver vector data to web and mobile clients</li>
         <li class="fragment">most commonly used for basemaps (also true for ArcGIs)</li>
+      </ul>
+    </section>
+
+    <section class="wms-wfs">
+      <h3>WMS and WFS Service Specifications</h3>
+      <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Web_Map_Service" target="_blank" rel="noopener noreferrer">Web Map Service (WMS)</a> and <a href="https://en.wikipedia.org/wiki/Web_Feature_Service" target="_blank" rel="noopener noreferrer">Web Feature Service (WFS)</a> are XML-based standard protocols for serving georeferenced map images and vector features over the internet</li>
+        <li class="fragment">These allow clients to request map images from a server using parameters such as bounding box, image size, and format</li>
+        <li class="fragment">WMS is commonly used for displaying raster data, such as satellite imagery and aerial photography</li>
+        <li class="fragment">WFS is commonly used for serving vector data</li>
+        <ul>
+          <li class="fragment">WFS also allows for editing data</li>
+        </ul>
       </ul>
     </section>
 

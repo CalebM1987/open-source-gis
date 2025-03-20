@@ -10,13 +10,17 @@ import "reveal.js/plugin/highlight/monokai.css"
 // @ts-ignore
 import sql from 'highlight.js/lib/languages/sql';
 import { highlight } from '@/state';
+import { homepage as presentationUrl } from '../package.json';
 
+const QRCode = defineAsyncComponent(() => import('./components/QRCode.vue'));
 const DesktopSoftware = defineAsyncComponent(() => import('./sections/DesktopSoftware.vue'));
 const DataFormats = defineAsyncComponent(() => import('./sections/DataFormats.vue'));
 const WebServers = defineAsyncComponent(() => import('./sections/WebServers.vue'));
 const MappingLibraries = defineAsyncComponent(() => import('./sections/MappingLibraries.vue'));
 
 const revealContainer = useTemplateRef<HTMLElement>('reveal');
+
+const repoUrl = 'https://github.com/CalebM1987/open-source-gis';
 
 onMounted(()=> {
   console.log('container', revealContainer.value)
@@ -54,6 +58,8 @@ onMounted(()=> {
 					<p>Caleb Mackey<br/>
 						<i style="font-style: italic;" class="text-md">GIS Development Lead at Bolton & Menk</i>
 					</p>
+          <QRCode :url="presentationUrl" />
+          <p class="text-sm">slides source: <a :href="repoUrl" target="_blank" rel="noopener noreferrer">{{ repoUrl }}</a></p>
 				</section>
 				<section>
           <h3>Outline</h3>
