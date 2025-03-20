@@ -8,6 +8,7 @@
       <ul>
         <li><a href="Open Source GIS" target="_blank" rel="noopener noreferrer">https://landscapepartnership.org/maps-data/gis-planning/gis-tools-resources/extensions-other-tools/open-source-web-mapping-tools</a></li>
         <li><a href="https://www.crunchydata.com/blog/dynamic-vector-tiles-from-postgis" target="_blank" rel="noopener noreferrer">Serving Vector Tiles from PostGIS</a></li>
+        <li><a href="https://postgis.net/docs/manual-1.5/ch08.html" target="_blank" rel="noopener noreferrer">PostGIS function reference</a></li>
         <li>my <a href="https://gis.bolton-menk.com/presentations/serving-data-with-koop-2024/" target="_blank" rel="noopener noreferrer">Koop.js talk</a> from the 2024 MN GIS/LIS Conference</li>
         <li>these slides are hosted on <a href="https://calebm1987.github.io/open-source-gis/" target="_blank" rel="noopener noreferrer">github</a> (<a href="https://github.com/CalebM1987/open-source-gis" target="_blank" rel="noopener noreferrer">source code</a>)</li>
       </ul>
