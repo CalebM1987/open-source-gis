@@ -5,6 +5,7 @@
 <template>
   <section class="resources-and-questions">
     <section class="resources">
+      <h3>Resources</h3>
       <ul>
         <li><a href="Open Source GIS" target="_blank" rel="noopener noreferrer">https://landscapepartnership.org/maps-data/gis-planning/gis-tools-resources/extensions-other-tools/open-source-web-mapping-tools</a></li>
         <li><a href="https://www.crunchydata.com/blog/dynamic-vector-tiles-from-postgis" target="_blank" rel="noopener noreferrer">Serving Vector Tiles from PostGIS</a></li>

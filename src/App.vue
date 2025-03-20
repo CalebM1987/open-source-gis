@@ -17,6 +17,7 @@ const DesktopSoftware = defineAsyncComponent(() => import('./sections/DesktopSof
 const DataFormats = defineAsyncComponent(() => import('./sections/DataFormats.vue'));
 const WebServers = defineAsyncComponent(() => import('./sections/WebServers.vue'));
 const MappingLibraries = defineAsyncComponent(() => import('./sections/MappingLibraries.vue'));
+const ResourcesAndQuestions = defineAsyncComponent(() => import('./sections/ResourcesAndQuestions.vue'));
 
 const revealContainer = useTemplateRef<HTMLElement>('reveal');
 
@@ -79,6 +80,7 @@ onMounted(()=> {
         <DesktopSoftware />
         <WebServers />
         <MappingLibraries />
+        <ResourcesAndQuestions />
     </div>
   </div>
 </template>
