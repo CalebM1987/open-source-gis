@@ -1,4 +1,4 @@
-import{_ as n,C as r}from"./CodeSlide-87aLvcFl.js";import{d as i,a as l,b as p,e as o,f as s,g as t,h as a,w as c}from"./index-Du_vSQN0.js";const d="/open-source-gis/assets/postgres_results-rHQ2xxrD.png",g="/open-source-gis/assets/postgis_geometry_viewer-BOlj-Gvk.png",m="/open-source-gis/assets/qgis-M-oXnbNK.png",u={class:"desktop-software"},f={class:"postgis-intersect"},S={class:"fragment fade-in-then-semi-out"},b={class:"fragment fade-up"},h=`
+import{_ as n,C as r}from"./CodeSlide-BogN88-u.js";import{d as i,a as l,b as p,e as o,f as s,g as t,h as a,w as c}from"./index-DZatwUrP.js";const d="/open-source-gis/assets/postgres_results-rHQ2xxrD.png",g="/open-source-gis/assets/postgis_geometry_viewer-BOlj-Gvk.png",m="/open-source-gis/assets/qgis-M-oXnbNK.png",u={class:"desktop-software"},f={class:"postgis-intersect"},S={class:"fragment fade-in-then-semi-out"},b={class:"fragment fade-up"},h=`
 SELECT * FROM public.brewery
 WHERE city in ('Minneapolis', 'St. Paul')
 ORDER BY name;`,_=`
